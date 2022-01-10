@@ -1,0 +1,90 @@
+ * {
+     font-family: sans-serif;
+ }
+
+ .main {
+     width: 80%;
+
+     align-items: center;
+     display: flex;
+     margin: 80px 465px;
+
+     table {
+
+         background-color: #ddd;
+
+         tr {
+             .btn {
+                 width: 100px;
+                 height: 120px;
+                 background-color: #efefef;
+                 cursor: pointer;
+                 font-size: 15px;
+                 text-align: center;
+                 transition: all .5s ease;
+
+                 &:hover {
+                     background-color: #fff;
+                 }
+
+                 &-topla {
+                     background-color: chocolate;
+
+
+                     &:hover {
+                         background-color: brown;
+
+                     }
+                 }
+                 &-eksi {
+                    background-color: chocolate;
+                    &:hover {
+                        background-color: brown;
+                    }
+                }
+                &-carp {
+                    background-color: chocolate;
+                    &:hover {
+                        background-color: brown;
+                    }
+                }
+                &-bol {
+                    background-color: chocolate;
+                    &:hover {
+                        background-color: brown;
+                    }
+                }
+                &-sil {
+                    background-color: darkcyan;
+                    &:hover {
+                        background-color: cyan;
+                    }
+                }
+                &-ce {
+                    background-color: darkcyan;
+                    &:hover {
+                        background-color: cyan;
+                    }
+                }
+                &-esit {
+                    background-color: darkcyan;
+                    &:hover {
+                        background-color: cyan;
+                    }
+                }
+
+
+                 &-first {
+                     text-align: right;
+                     box-sizing: border-box;
+                     padding-right: 20px;
+                     background-color: #fff;
+                     font-size: 25px;
+                 }
+             }
+
+
+         }
+
+     }
+ }

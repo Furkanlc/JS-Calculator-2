@@ -1,0 +1,54 @@
+* {
+  font-family: sans-serif; }
+
+.main {
+  width: 80%;
+  align-items: center;
+  display: flex;
+  margin: 80px 465px; }
+  .main table {
+    background-color: #ddd; }
+    .main table tr .btn {
+      width: 100px;
+      height: 120px;
+      background-color: #efefef;
+      cursor: pointer;
+      font-size: 15px;
+      text-align: center;
+      transition: all .5s ease; }
+      .main table tr .btn:hover {
+        background-color: #fff; }
+      .main table tr .btn-topla {
+        background-color: chocolate; }
+        .main table tr .btn-topla:hover {
+          background-color: brown; }
+      .main table tr .btn-eksi {
+        background-color: chocolate; }
+        .main table tr .btn-eksi:hover {
+          background-color: brown; }
+      .main table tr .btn-carp {
+        background-color: chocolate; }
+        .main table tr .btn-carp:hover {
+          background-color: brown; }
+      .main table tr .btn-bol {
+        background-color: chocolate; }
+        .main table tr .btn-bol:hover {
+          background-color: brown; }
+      .main table tr .btn-sil {
+        background-color: darkcyan; }
+        .main table tr .btn-sil:hover {
+          background-color: cyan; }
+      .main table tr .btn-ce {
+        background-color: darkcyan; }
+        .main table tr .btn-ce:hover {
+          background-color: cyan; }
+      .main table tr .btn-esit {
+        background-color: darkcyan; }
+        .main table tr .btn-esit:hover {
+          background-color: cyan; }
+      .main table tr .btn-first {
+        text-align: right;
+        box-sizing: border-box;
+        padding-right: 20px;
+        background-color: #fff;
+        font-size: 25px; }
